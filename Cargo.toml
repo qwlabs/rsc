@@ -1,8 +1,16 @@
 [package]
 name = "rsc"
 version = "0.1.0"
+authors = ["QWLabs Group"]
+description = "A RSocket cli"
+categories = ["command-line-utilities"]
+homepage = "https://github.com/qwlabs/rsc"
+repository = "https://github.com/qwlabs/rsc"
+license = "GPL-3.0"
+readme = "README.md"
+keywords = ["rsocket", "cli", "command line"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+clap={ version = "=3.0.0-beta.2", features = ["yaml", "suggestions", "color", "wrap_help"] }
+clap_derive={ version = "=3.0.0-beta.2", features = [] }

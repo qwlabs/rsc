@@ -1,0 +1,5 @@
+- [ ] Code
+- [ ] Test
+- [ ] CI/CD
+- [ ] Documentation
+- [ ] Publish to home-brew

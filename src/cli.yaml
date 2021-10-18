@@ -1,0 +1,30 @@
+name: rsc
+version: "0.1"
+author: QWLabs Group. <pipinet@vip.qq.com>
+about: "RSocket Client CLI"
+subcommands:
+  - fnf:
+      short: fnf
+      long: fire-and-forget
+      about: FIRE_AND_FORGET interaction mode of rsocket
+      takes_value: false
+  - rc:
+      short: rc
+      long: request-channel
+      about: REQUEST_CHANNEL interaction mode of rsocket
+      takes_value: false
+  - rr:
+      short: rr
+      long: request-response
+      about: REQUEST_RESPONSE interaction mode of rsocket
+      takes_value: false
+  - rs:
+      short: rs
+      long: request-stream
+      about: REQUEST_STREAM interaction mode of rsocket
+      takes_value: false
+  - mp:
+      short: mp
+      long: metadata-push
+      about: METADATA_PUSH interaction mode of rsocket
+      takes_value: false
